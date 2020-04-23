@@ -26,7 +26,7 @@ echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml 4
 6. 更新你的博客主页 在vscode里打开config.toml
 你可以把语言改成zh-Hans,备注：若后期部署至Github后，若出现打开链接，然后显示如下图时
 请把baseURL里面的example.org换成你部署的Github的域名，一般以.io结尾
-7. 接下来就是建立静态网址啦 不要关掉你现在运行的终端，新建一个终端，并在里面运行Hugo,这时候，它会在目录里面创建一个public文件，此时你需要在文件中创建一个.gitignore文件，然后在里面写入/public/,然后进入public文件，把public文件上传到你新建的Github仓库里，然后到setting里面找到Github pages里面有一个网址就是你部署在 GitHub 上的博客啦。</description>
+7. 接下来就是建立静态网址啦  不要关掉你现在运行的终端，新建一个终端，并在里面运行Hugo 这时候，它会在目录里面创建一个public文件 此时你需要在文件中创建一个.gitignore文件 然后在里面写入/public/,然后进入public文件 把public文件上传到你新建的Github仓库里 然后到setting里面找到Github pages里面有一个网址就是你部署在 GitHub 上的博客啦。  </description>
     </item>
     
     <item>
