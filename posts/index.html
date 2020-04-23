@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://emmalee1229.github.io/posts/" />
-<meta property="og:updated_time" content="2020-04-22T10:55:59+08:00" />
+<meta property="og:updated_time" content="2020-04-24T00:15:02+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -91,6 +91,30 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://emmalee1229.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
+        如何用Hugo搭建博客
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      本文仅以 Mac 为例 1. 需在 bash 里安装 Hugo brew install hugo 安装完成时运行hugo version 进行检查是否安装成功,若显示版本号则为成功
+2.创建一个新的网站 hugo new site quickstart 运行上述命令将在quickstart文件中创建一个新的 hugo 网站
+3.为博客添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 默认的主题是ananke，若想更换主题可以在主题中搜索，然后在把主题加入配置中，命令如下：
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml 4. 接下来可以开始你的第一篇博客啦 hugo new posts/my-first-post.md 在my-first-post可以添加任何你想写的名字。（备注：若想建立其他的博客的时候请在博客生成器的文件夹重新运行上面的命令）
+然后你就可以看到一篇如下图所示的文章界面 title是你博客的名字你可以自己更改，draft表示你的这篇文章是否要上传，若为true则表示它是一篇草稿，无法浏览页面，若为false则表示已上传可以浏览页面。
+5. 现在运行 Hugo server hugo server -D 你会在 bash 看到 其中红框内的是你的本地的博客地址，请单击博客在浏览器上进行查看，你可以通过查看此页面观察你博客的更改状态，备注：不要关掉hugo server！！！！
+6. 更新你的博客主页 在vscode里打开config.toml
+你可以把语言改成zh-Hans,备注：若后期部署至Github后，若出现打开链接，然后显示如下图时
+请把baseURL里面的example.org换成你部署的Github的域名，一般以.io结尾
+7. 接下来就是建立静态网址啦 不要关掉你现在运行的终端，新建一个终端，并在里面运行Hugo,这时候，它会在目录里面创建一个public文件，此时你需要在文件中创建一个.gitignore文件，然后在里面写入/public/,然后进入public文件，把public文件上传到你新建的Github仓库里，然后到setting里面找到Github pages里面有一个网址就是你部署在 GitHub 上的博客啦。
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
