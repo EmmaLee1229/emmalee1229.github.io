@@ -176,18 +176,18 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 <pre><code>hugo new posts/my-first-post.md
 </code></pre><p>在<code>my-first-post</code>可以添加任何你想写的名字。（备注：若想建立其他的博客的时候请在博客生成器的文件夹重新运行上面的命令）</p>
 <p>然后你就可以看到一篇如下图所示的文章界面
-<img src="/images/1.png" alt="">
+<img src="/public/images/5.png" alt="">
 <code>title</code>是你博客的名字你可以自己更改，<code>draft</code>表示你的这篇文章是否要上传，若为<code>true</code>则表示它是一篇草稿，无法浏览页面，若为<code>false</code>则表示已上传可以浏览页面。</p>
 <h2 id="5-现在运行-hugo-server">5. 现在运行 Hugo server</h2>
 <pre><code>hugo server -D
 </code></pre><p>你会在 bash 看到
-<img src="/images/2.jpg" alt=""></p>
+<img src="/public/images/6.jpg" alt=""></p>
 <p>其中红框内的是你的本地的博客地址，请单击<a href="http://localhost:1313/">博客</a>在浏览器上进行查看，你可以通过查看此页面观察你博客的更改状态，备注：不要关掉<code>hugo server</code>！！！！</p>
 <h2 id="6-更新你的博客主页">6. 更新你的博客主页</h2>
 <p>在<code>vscode</code>里打开<code>config.toml</code></p>
-<p><img src="/images/3.jpg" alt="">
+<p><img src="/public/images/7.jpg" alt="">
 你可以把语言改成<code>zh-Hans</code>,备注：若后期部署至<code>Github</code>后，若出现打开链接，然后显示如下图时</p>
-<p><img src="/images/4.jpg" alt=""></p>
+<p><img src="/public/images/8.jpg" alt=""></p>
 <p>请把<code>baseURL</code>里面的<code>example.org</code>换成你部署的<code>Github</code>的域名，一般以<code>.io</code>结尾</p>
 <h2 id="7-接下来就是建立静态网址啦">7. 接下来就是建立静态网址啦</h2>
 <ol>
